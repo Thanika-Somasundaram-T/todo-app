@@ -4,8 +4,9 @@ import { rndString } from '@laufire/utils/random';
 const refreshIDLength = 4;
 
 const seed = {
-	count: config.countStart,
+	input: config.input,
 	refreshID: rndString(refreshIDLength),
+	todos: [],
 };
 
 export default seed;

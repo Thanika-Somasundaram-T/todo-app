@@ -1,6 +1,6 @@
 const config = {
-	countStart: 0,
-	increment: 1,
+	idlength: 16,
+	input: '',
 };
 
 export default config;
