@@ -4,6 +4,7 @@ import SampleService from './services/sample';
 import InputBox from './components/inputBox';
 import AddButton from './components/addButton';
 import TodoList from './components/todoList';
+import context from './core/context';
 
 const App = () => {
 	useEffect(SampleService.sayHai, []);
@@ -12,6 +13,7 @@ const App = () => {
 		<div className="App">
 			<div>{ InputBox() }{ AddButton() }</div>
 			<div>{ TodoList() }</div>
+			<div>Refresh ID: { context.state.refreshID }</div>
 		</div>
 	);
 };
