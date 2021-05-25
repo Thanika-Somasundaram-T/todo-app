@@ -13,6 +13,7 @@ const completedStyle = {
 };
 
 // eslint-disable-next-line react/prop-types
+// eslint-disable-next-line max-lines-per-function
 const Todo = (todo) => {
 	const { text, id, completed } = todo;
 	const style = completed ? completedStyle : activeStyle ;
@@ -28,6 +29,12 @@ const Todo = (todo) => {
 			</span>
 			<span>
 				{ text }
+			</span>
+			<span>
+				<button
+					onClick={ () => context.actions.removeTodo(todo) }
+				>x
+				</button>
 			</span>
 		</div>
 	);

@@ -17,9 +17,13 @@ const toggleTodo = (todos, data) => todos.map((todo) => (todo.id !== data.id
 	}
 ));
 
+const removeTodo = (todos, data) =>
+	todos.filter((currentData) => currentData.id !== data.id);
+
 const TodoManager = {
 	addTodo,
 	toggleTodo,
+	removeTodo,
 };
 
 export default TodoManager;
