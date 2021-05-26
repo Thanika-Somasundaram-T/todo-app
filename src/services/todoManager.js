@@ -33,6 +33,8 @@ const getActiveCount = ({ todos }) =>
 
 const getTodosCount = ({ todos }) => todos.length;
 
+const clearCompleted = (todos) => todos.filter((todo) => !todo.completed);
+
 const TodoManager = {
 	addTodo,
 	toggleTodo,
@@ -40,6 +42,7 @@ const TodoManager = {
 	removeTodo,
 	getActiveCount,
 	getTodosCount,
+	clearCompleted,
 };
 
 export default TodoManager;
