@@ -19,10 +19,15 @@ const removeTodo = ({ state }, todo) => ({
 	todos: TodoManager.removeTodo(state.todos, todo),
 });
 
+const toggleTodos = ({ state }, isChecked) => ({
+	todos: TodoManager.toggleTodos(state.todos, isChecked),
+});
+
 const actions = {
 	updateInput,
 	addTodo,
 	toggleTodo,
+	toggleTodos,
 	removeTodo,
 };
 
