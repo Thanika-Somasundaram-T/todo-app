@@ -28,11 +28,18 @@ const toggleTodos = (todos, isChecked) =>
 		}
 	));
 
+const getActiveCount = ({ todos }) =>
+	todos.filter((todo) => !todo.completed).length;
+
+const getTodosCount = ({ todos }) => todos.length;
+
 const TodoManager = {
 	addTodo,
 	toggleTodo,
 	toggleTodos,
 	removeTodo,
+	getActiveCount,
+	getTodosCount,
 };
 
 export default TodoManager;

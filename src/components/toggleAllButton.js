@@ -1,19 +1,19 @@
+/* eslint-disable indent */
 import { React } from 'react';
 import context from '../core/context';
-
-const getActiveCount = ({ todos }) =>
-	todos.filter((todo) => !todo.completed).length;
+import TodoManager from '../services/todoManager';
 
 const ToggleButton = () => {
-	const isChecked = getActiveCount(context.state) === 0;
+	const isChecked = TodoManager.getActiveCount(context.state) === 0;
+	const checkNoTodos = TodoManager.getTodosCount(context.state) === 0;
 
-	return (
-		<input
-			type="checkbox"
-			checked={ isChecked }
-			onChange={ () => context.actions.toggleTodos(!isChecked) }
-		/>
-	);
+	return checkNoTodos
+		? null
+		: <input
+				type="checkbox"
+				checked={ isChecked }
+				onChange={ () => context.actions.toggleTodos(!isChecked) }
+				/>;
 };
 
 export default ToggleButton;
