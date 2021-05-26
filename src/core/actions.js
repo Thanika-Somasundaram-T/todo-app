@@ -23,9 +23,14 @@ const toggleTodos = ({ state }, isChecked) => ({
 	todos: TodoManager.toggleTodos(state.todos, isChecked),
 });
 
+const clearCompleted = ({ state }) => ({
+	todos: TodoManager.clearCompleted(state.todos),
+});
+
 const actions = {
 	updateInput,
 	addTodo,
+	clearCompleted,
 	toggleTodo,
 	toggleTodos,
 	removeTodo,
