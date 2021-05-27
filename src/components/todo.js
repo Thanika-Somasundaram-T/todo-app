@@ -1,7 +1,7 @@
 import { React } from 'react';
 import context from '../core/context';
 const sharedStyle = {
-	height: '1em',
+	height: '2em',
 };
 const activeStyle = {
 	...sharedStyle,

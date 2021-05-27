@@ -7,6 +7,7 @@ const seed = {
 	input: config.input,
 	refreshID: rndString(refreshIDLength),
 	todos: [],
+	filter: 'all',
 };
 
 export default seed;
