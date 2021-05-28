@@ -14,7 +14,7 @@ const App = () => {
 
 	return (
 		<div className="App">
-			<div>{ ToggleAllButton() }{ InputBox() }{ AddButton() }</div>
+			<div>{ ToggleAllButton() } { InputBox() } { AddButton() }</div>
 			<div>{ TodoList() }</div>
 			<div>{ ClearCompletedButton() }</div>
 			<div>{ FilterBar() }</div>
