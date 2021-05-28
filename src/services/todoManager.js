@@ -7,7 +7,8 @@ const getTodo = (text) => ({
 	completed: false,
 });
 
-const addTodo = (todos, text) => todos.concat(getTodo(text));
+const addTodo = (todos, text) =>
+	(text === '' ? todos : todos.concat(getTodo(text)));
 
 const toggleTodo = (todos, data) => todos.map((todo) => (todo.id !== data.id
 	?	todo
@@ -39,14 +40,14 @@ const clearCompleted = (todos) =>
 const getCompletedCount = ({ todos }) =>
 	todos.filter((todo) => todo.completed).length;
 
-const Filter = {
+const filters = {
 	all: () => true,
 	active: (todo) => !todo.completed,
 	completed: (todo) => todo.completed,
 };
 
 const getFilteredTodos = ({ todos, filter }) =>
-	todos.filter(Filter[filter]);
+	todos.filter(filters[filter]);
 
 const TodoManager = {
 	addTodo,
