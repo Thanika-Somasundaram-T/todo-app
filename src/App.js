@@ -8,13 +8,17 @@ import context from './core/context';
 import ToggleAllButton from './components/toggleAllButton';
 import ClearCompletedButton from './components/clearCompletedButton';
 import FilterBar from './components/filterBar';
+import EditButton from './components/editButton';
 
 const App = () => {
 	useEffect(SampleService.sayHai, []);
 
 	return (
 		<div className="App">
-			<div>{ ToggleAllButton() } { InputBox() } { AddButton() }</div>
+			<div>{ ToggleAllButton() }
+				{ InputBox() }
+				{ AddButton() }
+				{ EditButton() }</div>
 			<div>{ TodoList() }</div>
 			<div>{ ClearCompletedButton() }</div>
 			<div>{ FilterBar() }</div>

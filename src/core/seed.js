@@ -8,6 +8,7 @@ const seed = {
 	refreshID: rndString(refreshIDLength),
 	todos: [],
 	filter: 'all',
+	editing: null,
 };
 
 export default seed;

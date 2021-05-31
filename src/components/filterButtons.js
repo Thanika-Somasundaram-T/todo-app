@@ -9,6 +9,7 @@ const trueStyle = {
 
 const defaultStyle = {
 	background: '',
+
 };
 const FilterButtons = (filterName) => {
 	const checkFilter
