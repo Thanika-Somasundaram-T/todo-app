@@ -52,7 +52,7 @@ const getFilteredTodos = ({ todos, filter }) =>
 const editTodo = (
 	todos, edit, text
 ) => todos.map((todo) => (
-	todo.id !== edit.id
+	todo.id !== edit?.id
 		? todo
 		: {
 			...todo,
