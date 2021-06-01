@@ -1,4 +1,4 @@
-import context from '../core/context';
+import context from '../../core/context';
 import EditButton from './editButton';
 import AddButton from './addButton';
 

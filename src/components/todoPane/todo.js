@@ -1,8 +1,9 @@
 import { React } from 'react';
-import context from '../core/context';
+import context from '../../core/context';
 const sharedStyle = {
 	height: '2em',
 };
+
 const activeStyle = {
 	...sharedStyle,
 	color: 'black',
@@ -10,6 +11,10 @@ const activeStyle = {
 const completedStyle = {
 	...sharedStyle,
 	color: 'grey',
+};
+
+const widthStyle = {
+	margin: '10px',
 };
 
 // eslint-disable-next-line react/prop-types
@@ -32,6 +37,7 @@ const Todo = (todo) => {
 			</span>
 			<span>
 				<button
+					style={ widthStyle }
 					onClick={ () => context.actions.removeTodo(todo) }
 				>x
 				</button>

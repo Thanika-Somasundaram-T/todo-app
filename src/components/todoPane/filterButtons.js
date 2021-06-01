@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 import { React } from 'react';
-import context from '../core/context';
+import context from '../../core/context';
 
 const sharedStyle = {
 	borderRadius: '8px',
