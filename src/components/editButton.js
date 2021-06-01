@@ -5,7 +5,7 @@ const EditButton = () =>
 	<button
 		disabled={ context.state.input === '' }
 		onClick={ () => context.actions.editTodo() }
-	>EDIT
+	>OK
 	</button>;
 
 export default EditButton;
