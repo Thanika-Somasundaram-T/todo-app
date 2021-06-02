@@ -40,6 +40,10 @@ const editTodo = ({ state }) => ({
 	),
 });
 
+const setTask = (dummy, tasks) => ({
+	tasks,
+});
+
 const actions = {
 	updateInput,
 	addTodo,
@@ -50,6 +54,8 @@ const actions = {
 	setFilter,
 	editTodo,
 	setEdit,
+	setTask,
+
 };
 
 export default actions;

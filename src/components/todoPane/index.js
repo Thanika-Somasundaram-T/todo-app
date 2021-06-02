@@ -11,10 +11,9 @@ const style = {
 	position: 'absolute',
 	height: '100%',
 	width: '50%',
-	background: 'BEIGE',
+	background: 'peachPuff',
 	top: 0,
 	left: 0,
-
 };
 
 const todoPane = () => {

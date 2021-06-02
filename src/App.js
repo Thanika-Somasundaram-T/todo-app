@@ -1,13 +1,16 @@
 import { React, useEffect } from 'react';
 import './App.css';
-import SampleService from './services/sample';
+import TaskManager from './services/taskManager';
 import TodoPane from './components/todoPane';
+import TaskPane from './components/taskPane';
+
 const App = () => {
-	useEffect(SampleService.sayHai, []);
+	useEffect(TaskManager.init, []);
 
 	return (
 		<div className="App">
 			{ TodoPane() }
+			{ TaskPane() }
 		</div>
 	);
 };
