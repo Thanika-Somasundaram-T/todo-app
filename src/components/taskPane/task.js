@@ -13,11 +13,26 @@ const RemoveButton = (task) =>
 		x
 	</button>;
 
+const AddButton = (task) =>
+	<button
+		onClick={
+			() => {
+				context.actions.addTaskToTodo(task);
+				context.actions.removeTask(task);
+			}
+		}
+	>
+		+
+	</button>;
+
 const Task = (task) => {
 	const { id, text } = task;
 
 	return (
 		<div key={ id }>
+			<span>
+				{ AddButton(task) }
+			</span>
 			<span>
 				{text}
 			</span>

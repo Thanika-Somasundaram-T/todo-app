@@ -49,6 +49,10 @@ const removeTask = ({ state }, task) => ({
 	tasks: TaskManager.removeTask(state.tasks, task),
 });
 
+const addTaskToTodo = ({ state }, task) => ({
+	todos: TodoManager.addTodo(state.todos, task.text),
+});
+
 const actions = {
 	updateInput,
 	addTodo,
@@ -61,6 +65,7 @@ const actions = {
 	setEdit,
 	setTask,
 	removeTask,
+	addTaskToTodo,
 };
 
 export default actions;
