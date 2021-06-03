@@ -14,7 +14,7 @@ const completedStyle = {
 };
 
 const widthStyle = {
-	margin: '10px',
+	margin: '5px',
 };
 
 // eslint-disable-next-line react/prop-types

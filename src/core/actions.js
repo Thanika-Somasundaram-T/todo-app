@@ -1,3 +1,4 @@
+import TaskManager from '../services/taskManager';
 import TodoManager from '../services/todoManager';
 
 const updateInput = (dummy, input) => ({
@@ -44,6 +45,10 @@ const setTask = (dummy, tasks) => ({
 	tasks,
 });
 
+const removeTask = ({ state }, task) => ({
+	tasks: TaskManager.removeTask(state.tasks, task),
+});
+
 const actions = {
 	updateInput,
 	addTodo,
@@ -55,7 +60,7 @@ const actions = {
 	editTodo,
 	setEdit,
 	setTask,
-
+	removeTask,
 };
 
 export default actions;
