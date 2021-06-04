@@ -53,6 +53,10 @@ const addTaskToTodo = ({ state }, task) => ({
 	todos: TodoManager.addTodo(state.todos, task.text),
 });
 
+const addTask = ({ state }, taskName) => ({
+	tasks: TaskManager.addTask(state.tasks, taskName),
+});
+
 const actions = {
 	updateInput,
 	addTodo,
@@ -66,6 +70,7 @@ const actions = {
 	setTask,
 	removeTask,
 	addTaskToTodo,
+	addTask,
 };
 
 export default actions;
