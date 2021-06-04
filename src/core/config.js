@@ -6,6 +6,7 @@ const config = {
 	input: '',
 	refreshIdLength: 4,
 	tickerDelay: milliSeconds * seconds * minutes,
+	maxTaskCount: 3,
 };
 
 export default config;

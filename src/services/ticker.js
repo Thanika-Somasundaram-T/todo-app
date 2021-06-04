@@ -1,9 +1,12 @@
 import context from '../core/context';
 import config from '../core/config';
+import TaskRetriever from './taskRetriever';
 
 const start = () => {
+	const { addTask } = context.actions;
+
 	setInterval(() => {
-		context.actions.addTask('New Task');
+		TaskRetriever.getTasks().map(addTask);
 	}, config.tickerDelay);
 };
 
