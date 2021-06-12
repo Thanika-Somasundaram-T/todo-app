@@ -1,17 +1,5 @@
 import { React } from 'react';
 import context from '../../core/context';
-const sharedStyle = {
-	height: '2em',
-};
-
-const activeStyle = {
-	...sharedStyle,
-	color: 'black',
-};
-const completedStyle = {
-	...sharedStyle,
-	color: 'grey',
-};
 
 const widthStyle = {
 	margin: '5px',
@@ -21,10 +9,10 @@ const widthStyle = {
 // eslint-disable-next-line max-lines-per-function
 const Todo = (todo) => {
 	const { text, id, completed } = todo;
-	const style = completed ? completedStyle : activeStyle ;
+	const className = `todo ${ completed ? 'todo-completed' : 'todo-active' }` ;
 
 	return (
-		<div key={ id } style={ style }>
+		<div key={ id } className={ className }>
 			<span>
 				<input
 					type="checkBox"
