@@ -6,20 +6,13 @@ import ClearCompletedButton from './clearCompletedButton';
 import FilterBar from './filterBar';
 import ActionButton from './actionButton';
 import { peek } from '@laufire/utils/debug';
+import './style.css';
 
-const style = {
-	position: 'absolute',
-	height: '100%',
-	width: '50%',
-	background: 'peachPuff',
-	top: 0,
-	left: 0,
-};
 
 const todoPane = () => {
 	peek("hi");
 	return (
-		<div style={ style }>
+		<div className="todoPane">
 		<div>
 			<h3> TODO </h3>
 		</div>

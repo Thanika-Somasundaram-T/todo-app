@@ -13,10 +13,6 @@ const completedStyle = {
 	color: 'grey',
 };
 
-const widthStyle = {
-	margin: '5px',
-};
-
 // eslint-disable-next-line react/prop-types
 // eslint-disable-next-line max-lines-per-function
 const Todo = (todo) => {
@@ -37,7 +33,7 @@ const Todo = (todo) => {
 			</span>
 			<span>
 				<button
-					style={ widthStyle }
+					className="button-x"
 					onClick={ () => context.actions.removeTodo(todo) }
 				>x
 				</button>
