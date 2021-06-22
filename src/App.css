@@ -1,3 +1,15 @@
+.todo {
+	height: 2em;
+}
+
+.todo-active {
+	color: black;
+}
+
+.todo-completed {
+	color: grey;
+}
+
 .App {
 	text-align: center;
 }
