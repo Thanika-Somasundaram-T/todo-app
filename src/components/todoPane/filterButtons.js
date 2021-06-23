@@ -2,28 +2,11 @@
 import { React } from 'react';
 import context from '../../core/context';
 
-const sharedStyle = {
-	borderRadius: '8px',
-	margin: '5px',
-	width: '100px',
-};
-
-const trueStyle = {
-	...sharedStyle,
-	background: 'grey',
-	color: 'white',
-};
-
-const defaultStyle = {
-	...sharedStyle,
-	background: '',
-};
-
 const FilterButtons = (filterName) => {
-	const checkFilter
-	= context.state.filter === filterName ? trueStyle : defaultStyle;
+	const className
+	= `filter ${ context.state.filter === filterName ? 'filter-active' : 'filter-inactive' }`;
 
-	return <button key={ filterName } style={ checkFilter } onClick={ () => context.actions.setFilter(filterName) }>
+	return <button key={ filterName } className={ className } onClick={ () => context.actions.setFilter(filterName) }>
 		{ filterName }
 	</button>;
 };

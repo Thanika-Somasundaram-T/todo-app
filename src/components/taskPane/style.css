@@ -5,6 +5,7 @@
 	background-color: turquoise;
 	top: 0%;
 	right: 0%;
+	border-left: 2px solid black ;
 }
 
 .task-pane button {
@@ -14,10 +15,9 @@
 	padding: 1px 5px;
 }
 
-button:hover {
+.task-pane button:hover {
 	background-color: peachpuff;
-	padding: 5px 10px;
-	border: 2px solid black;
+	border: 2px solid rgb(0, 255, 229);
 }
 
 .task-pane span {
@@ -31,6 +31,8 @@ button:hover {
 .task-pane h3 {
 	background-color: peachpuff;
 	border: 2px solid black;
+	border-right: none;
+	border-left: none;
 }
 button.x:hover {
 	background-color: rgb(255, 72, 72);
