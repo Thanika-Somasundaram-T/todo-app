@@ -1,17 +1,9 @@
 import TaskList from './taskList';
-
-const style = {
-	position: 'absolute',
-	height: '100%',
-	width: '50%',
-	background: 'turquoise',
-	top: 0,
-	right: 0,
-};
+import './style.css';
 
 const TaskPane = () =>
-	<div style={ style }>
-		<h3>Tasks</h3>
+	<div className="task-pane">
+		<h3>TASKS</h3>
 		<div>{ TaskList() }</div>
 	</div>
 

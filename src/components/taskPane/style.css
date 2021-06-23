@@ -1,0 +1,38 @@
+.task-pane {
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	background-color: turquoise;
+	top: 0%;
+	right: 0%;
+}
+
+.task-pane button {
+	background: rgb(143, 228, 219);
+	border-radius: 25%;
+	border: none;
+	padding: 1px 5px;
+}
+
+button:hover {
+	background-color: peachpuff;
+	padding: 5px 10px;
+	border: 2px solid black;
+}
+
+.task-pane span {
+	margin: 5px;
+}
+
+.task-pane div {
+	height: 2em;
+}
+
+.task-pane h3 {
+	background-color: peachpuff;
+	border: 2px solid black;
+}
+button.x:hover {
+	background-color: rgb(255, 72, 72);
+}
+

@@ -1,13 +1,9 @@
 import { React } from 'react';
 import context from '../../core/context';
 
-const style = {
-	margin: '5px',
-	height: '2em',
-};
-
 const RemoveButton = (task) =>
 	<button
+		className="x"
 		onClick={ () => context.actions.removeTask(task) }
 	>
 		x
@@ -36,7 +32,7 @@ const Task = (task) => {
 			<span>
 				{text}
 			</span>
-			<span style={ style }>
+			<span>
 				{ RemoveButton(task) }
 			</span>
 		</div>
