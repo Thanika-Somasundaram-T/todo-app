@@ -1,0 +1,93 @@
+.dark .todoPane {
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	background: #35465C;
+	top: 0%;
+	left: 0%;
+	color: rgb(202, 199, 199);
+}
+
+.dark .todoPane .button {
+	border: none;
+	margin-left: 3px;
+	background: rgb(156, 156, 156);
+	color: rgb(61, 60, 60);
+	border-radius: 25%;
+	padding: 1px 5px;
+}
+
+.dark .todoPane .button:hover {
+	background: rgb(175, 175, 175);
+	color: rgb(113, 241, 113);
+	border: 2px solid rgb(133, 131, 253);
+}
+
+.dark .button-x {
+	border: none;
+	margin-left: 2px;
+	background: rgb(156, 156, 156);
+	color: rgb(0, 0, 0);
+	border-radius: 25%;
+}
+.dark .button-x:hover {
+	border: 2px solid rgb(133, 131, 253);
+	color: red;
+}
+
+.dark .button-OK {
+	border-radius: 25%;
+	border: none;
+	background-color: rgb(156, 156, 156);
+	color: rgb(238, 77, 77);
+	margin-left: 2px;
+}
+
+.dark .button-OK:hover {
+	border: 2px solid rgb(133, 131, 253);
+	/* background-color: rgb(5, 180, 107); */
+	color: rgb(113, 241, 113);
+}
+
+.dark .filter {
+	border: none;
+	background-color: rgb(87, 204, 240);
+	border-radius: 8px;
+	margin: 5px;
+	width: 100px;
+	color: rgb(255, 255, 255);
+}
+
+.dark .filter-active {
+	background: #0a3268;
+}
+
+.dark .filter-inactive {
+	background-color: rgb(156, 156, 156);
+}
+
+.dark .filter:hover {
+	background: #35465C;
+	color: whitesmoke;
+	border: 2px solid rgb(250, 200, 156);
+}
+
+.dark #clr-btn {
+	border-radius: 8px;
+	border: none;
+	background-color: rgb(156, 156, 156);
+	color:whitesmoke;
+}
+
+.dark #clr-btn:hover {
+	background-color: #35465C;
+	border: 2px solid rgb(250, 200, 156);
+}
+
+.dark .todoPane h3 {
+	background-color: #0a3268;
+	border: 2px solid rgb(156, 156, 156);
+	color: rgb(202, 199, 199);
+	border-right: none;
+	border-left: none;
+}
