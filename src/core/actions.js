@@ -57,6 +57,10 @@ const addTask = ({ state }, taskName) => ({
 	tasks: TaskManager.addTask(state.tasks, taskName),
 });
 
+const updateTheme = (dummy, theme) => ({
+	theme,
+});
+
 const actions = {
 	updateInput,
 	addTodo,
@@ -71,6 +75,7 @@ const actions = {
 	removeTask,
 	addTaskToTodo,
 	addTask,
+	updateTheme,
 };
 
 export default actions;

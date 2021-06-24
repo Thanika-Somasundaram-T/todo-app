@@ -10,6 +10,8 @@ const seed = {
 	filter: 'all',
 	editing: null,
 	tasks: [],
+	themes: config.themes,
+	theme: config.themes[0],
 };
 
 export default seed;

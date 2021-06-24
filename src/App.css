@@ -48,3 +48,17 @@
 		transform: rotate(360deg);
 	}
 }
+
+select {
+	position: absolute;
+	background-color: rgb(253, 192, 139);
+	border:none;
+	border-radius: 25%;
+	top: 0%;
+	left: 0%;
+	color: rgb(83, 81, 81);
+}
+
+option {
+	background-color: peachpuff;
+}
