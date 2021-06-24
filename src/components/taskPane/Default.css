@@ -1,4 +1,4 @@
-.Default .task-pane {
+.default .task-pane {
 	position: absolute;
 	height: 100%;
 	width: calc(50% - 1px);
@@ -8,34 +8,34 @@
 	border-left: 1px solid black ;
 }
 
-.Default .task-pane button {
+.default .task-pane button {
 	background: rgb(143, 228, 219);
 	border-radius: 25%;
 	border: none;
 	padding: 1px 5px;
 }
 
-.Default .task-pane button:hover {
+.default .task-pane button:hover {
 	background-color: peachpuff;
 	border: 2px solid rgb(0, 255, 229);
 }
 
-.Default .task-pane span {
+.default .task-pane span {
 	margin: 5px;
 }
 
-.Default .task-pane div {
+.default .task-pane div {
 	height: 2em;
 }
 
-.Default .task-pane h3 {
+.default .task-pane h3 {
 	background-color: peachpuff;
 	border: 2px solid black;
 	border-right: none;
 	border-left: none;
 }
 
-.Default button.x:hover {
+.default button.x:hover {
 	background-color: rgb(255, 72, 72);
 }
 

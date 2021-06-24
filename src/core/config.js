@@ -1,7 +1,7 @@
 const seconds = 60;
 const milliSeconds = 1000;
 const minutes = 0.5;
-const themes = ['Default', 'Light', 'Dark'];
+const themes = ['default', 'light', 'dark'];
 
 const config = {
 	idlength: 16,
