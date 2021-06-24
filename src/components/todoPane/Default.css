@@ -1,4 +1,4 @@
-.todoPane {
+.Default .todoPane {
 	position: absolute;
 	height: 100%;
 	width: calc(50% - 1px);
@@ -8,7 +8,7 @@
 	border-right: 1px solid black;
 }
 
-.todoPane .button {
+.Default .todoPane .button {
 	border: none;
 	margin-left: 2px;
 	background: rgb(255, 235, 217);
@@ -17,26 +17,26 @@
 	padding: 1px 5px;
 }
 
-.todoPane .button:hover {
+.Default .todoPane .button:hover {
 	background: rgb(20, 216, 196);
 	color: rgb(255, 255, 255);
 	border: 2px solid rgb(250, 200, 156);
 }
 
-.button-x {
+.Default .button-x {
 	border: none;
 	margin-left: 2px;
 	background: rgb(255, 235, 217);
 	color: rgb(0, 0, 0);
 	border-radius: 25%;
 }
-.button-x:hover {
+.Default .button-x:hover {
 	border: 2px solid rgb(250, 200, 156);
 	background: red;
 	color: rgb(255, 255, 255);
 }
 
-.button-OK {
+.Default .button-OK {
 	border-radius: 25%;
 	border: none;
 	background-color: green;
@@ -44,13 +44,13 @@
 	margin-left: 2px;
 }
 
-.button-OK:hover {
+.Default .button-OK:hover {
 	border: 2px solid rgb(250, 200, 156);
 	background-color: greenyellow;
 	color: black;
 }
 
-.filter {
+.Default .filter {
 	border: none;
 	background-color: rgb(87, 204, 240);
 	border-radius: 8px;
@@ -59,32 +59,32 @@
 	color: black;
 }
 
-.filter-active {
+.Default .filter-active {
 	background: turquoise;
 }
 
-.filter-inactive {
+.Default .filter-inactive {
 	background-color: rgb(255, 235, 217);
 }
 
-.filter:hover {
+.Default .filter:hover {
 	background: turquoise;
 	color: white;
 	border: 2px solid rgb(250, 200, 156);
 }
 
-#clr-btn {
+.Default #clr-btn {
 	border-radius: 8px;
 	border: none;
 	background-color: rgb(255, 235, 217);
 }
 
-#clr-btn:hover {
+.Default #clr-btn:hover {
 	background-color: turquoise;
 	border: 2px solid rgb(250, 200, 156);
 }
 
-.todoPane h3 {
+.Default .todoPane h3 {
 	background-color: turquoise;
 	border: 2px solid black;
 	border-right: none;

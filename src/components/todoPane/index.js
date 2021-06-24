@@ -6,7 +6,7 @@ import ClearCompletedButton from './clearCompletedButton';
 import FilterBar from './filterBar';
 import ActionButton from './actionButton';
 import { peek } from '@laufire/utils/debug';
-import './style.css';
+import './Default.css';
 import ThemeSelector from '../themeSelector';
 
 

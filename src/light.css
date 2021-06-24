@@ -1,0 +1,23 @@
+.light.task-pane {
+	background-color: brown;
+	border-left: 1px solid black ;
+}
+
+.light .task-pane button {
+	background: rgb(143, 228, 219);
+}
+
+.light .task-pane button:hover {
+	background-color: peachpuff;
+	border: 2px solid rgb(0, 255, 229);
+}
+
+.light .task-pane h3 {
+	background-color: peachpuff;
+	border: 2px solid black;
+}
+.light button.x:hover {
+	background-color: rgb(255, 72, 72);
+}
+
+

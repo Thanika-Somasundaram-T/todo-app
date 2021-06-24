@@ -1,5 +1,5 @@
 import TaskList from './taskList';
-import './style.css';
+import './Default.css';
 
 const TaskPane = () =>
 	<div className="task-pane">
