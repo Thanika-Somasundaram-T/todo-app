@@ -1,18 +1,11 @@
 .default .task-pane {
-	position: absolute;
-	height: 100%;
-	width: calc(50% - 1px);
 	background-color: turquoise;
-	top: 0%;
-	right: 0%;
 	border-left: 1px solid black ;
 }
 
 .default .task-pane button {
 	background: rgb(143, 228, 219);
-	border-radius: 25%;
-	border: none;
-	padding: 1px 5px;
+
 }
 
 .default .task-pane button:hover {
@@ -20,16 +13,9 @@
 	border: 2px solid rgb(0, 255, 229);
 }
 
-.default .task-pane span {
-	margin: 5px;
-}
-
-.default .task-pane div {
-	height: 2em;
-}
-
 .default .task-pane h3 {
 	background-color: peachpuff;
+	border: 2px solid black;
 	border: 2px solid black;
 	border-right: none;
 	border-left: none;

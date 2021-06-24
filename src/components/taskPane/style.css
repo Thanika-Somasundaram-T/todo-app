@@ -1,0 +1,25 @@
+.task-pane {
+	position: absolute;
+	height: 100%;
+	width: calc(50% - 1px);
+	top: 0%;
+	right: 0%;
+}
+
+.task-pane button {
+	border-radius: 25%;
+	border: none;
+	padding: 1px 5px;
+}
+
+.task-pane span {
+	margin: 5px;
+}
+
+.task-pane div {
+	height: 2em;
+}
+
+
+
+
