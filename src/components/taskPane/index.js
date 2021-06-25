@@ -2,6 +2,7 @@ import TaskList from './taskList';
 import './default.css';
 import './style.css';
 import './light.css';
+import './dark.css';
 
 const TaskPane = () =>
 	<div className="task-pane">

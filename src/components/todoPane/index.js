@@ -9,6 +9,7 @@ import { peek } from '@laufire/utils/debug';
 import './default.css';
 import './light.css';
 import './style.css';
+import './dark.css';
 
 const todoPane = () => {
 	peek("hi");

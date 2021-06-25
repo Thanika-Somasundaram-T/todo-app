@@ -1,11 +1,12 @@
 .light .todoPane {
 	background-color: #1DA1F2;
 	border-right: 1px solid #F5F8FA;
+	color: #F5F8FA ;
 }
 
 .light .button {
 	background: #657786;
-	color: rgb(0, 0, 0);
+	color: #14171A;
 }
 
 .light .button:hover {
@@ -33,15 +34,18 @@
 
 .light .filter-active {
 	background: #F5F8FA;
+
 }
 
 .light .filter-inactive {
 	background-color: #657786;
+
 }
 
 .light .filter:hover {
 	background-color: #F5F8FA ;
 	border: 2px solid #AAB8C2;
+
 }
 
 .light #clr-btn {
@@ -59,6 +63,14 @@
 	border-right: none;
 	border-left: none;
 	color:  #F5F8FA;
+}
+
+.light .todo-active {
+	color: #F5F8FA;
+}
+
+.light .todo-completed {
+	color: #657786;
 }
 
 /* #1DA1F2

@@ -1,42 +1,34 @@
-.task-pane {
-	position: absolute;
-	height: 100%;
-	width: calc(50% - 1px);
+.dark .task-pane {
 	background-color: #35465C;
-	top: 0%;
-	right: 0%;
-	border-left: 1px solid black ;
+	border-left: 1px solid rgb(156, 156, 156);
+	color: rgb(113, 241, 113);
 }
 
-.task-pane button {
+.dark .task-pane button {
 	background: rgb(156, 156, 156);
 	color: rgb(61, 60, 60);
-	border-radius: 25%;
-	border: none;
-	padding: 1px 5px;
+
 }
 
-.task-pane button:hover {
+.dark .task-pane button:hover {
 	background: rgb(175, 175, 175);
 	color: rgb(113, 241, 113);
 	border: 2px solid rgb(133, 131, 253);
 }
 
-/* .task-pane span {
-	margin: 5px;
-}
-
-.task-pane div {
-	height: 2em;
-} */
-
-.task-pane h3 {
+.dark .task-pane h3 {
 	background-color: #0a3268;
 	border: 2px solid rgb(156, 156, 156);
 	color: rgb(202, 199, 199);
 	border-right: none;
 	border-left: none;
 }
-button.x:hover {
+.dark button.x:hover {
 	background-color: rgb(255, 72, 72);
 }
+
+.dark select {
+	background-color: #35465C;
+	color: rgb(113, 241, 113);
+}
+
