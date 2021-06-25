@@ -35,11 +35,6 @@
 	color: black;
 }
 
-.default .filter {
-	background-color: rgb(87, 204, 240);
-	color: black;
-}
-
 .default .filter-active {
 	background: turquoise;
 }

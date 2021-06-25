@@ -51,14 +51,13 @@
 
 select {
 	position: absolute;
-	background-color: rgb(253, 192, 139);
-	border:none;
-	border-radius: 25%;
+	background-color: peachpuff;
+	border: none;
+	border-radius: 5%;
 	top: 0%;
 	left: 0%;
-	color: rgb(83, 81, 81);
 }
 
 option {
-	background-color: peachpuff;
+	background-color: #AAB8C2;
 }

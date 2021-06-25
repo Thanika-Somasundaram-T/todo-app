@@ -7,6 +7,7 @@ import FilterBar from './filterBar';
 import ActionButton from './actionButton';
 import { peek } from '@laufire/utils/debug';
 import './default.css';
+import './light.css';
 import './style.css';
 
 const todoPane = () => {
@@ -14,7 +15,7 @@ const todoPane = () => {
 	return (
 		<div className="todoPane">
 		<div>
-			<h3> TODO </h3>
+			<h3> TODO'S </h3>
 		</div>
 		<div>{ ToggleAllButton() }
 			{ InputBox() }
