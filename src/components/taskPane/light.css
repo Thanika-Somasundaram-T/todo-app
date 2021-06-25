@@ -1,0 +1,40 @@
+.light .task-pane {
+	background-color: #14171A ;
+	border-left: 1px solid #F5F8FA;
+	color: #F5F8FA;
+}
+
+.light .task-pane button {
+	background: #657786;
+	color: #14171A;
+
+}
+
+.light .task-pane button:hover {
+	background-color: #1DA1F2;
+	border: 2px solid #AAB8C2;
+}
+
+.light .task-pane h3 {
+	background-color: #14171A;
+	border: 2px solid #1DA1F2;
+	border-right: none;
+	border-left: none;
+	color: #1DA1F2;
+}
+
+.light button.x:hover {
+	background-color: #E1E8ED;
+}
+
+.light select {
+	background-color: #F5F8FA;
+}
+
+
+/* #1DA1F2
+#14171A
+#657786
+#AAB8C2
+#E1E8ED
+#F5F8FA */

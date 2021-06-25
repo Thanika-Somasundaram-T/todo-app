@@ -1,34 +1,22 @@
 .default .todoPane {
-	position: absolute;
-	height: 100%;
-	width: calc(50% - 1px);
 	background: peachPuff;
-	top: 0%;
-	left: 0%;
 	border-right: 1px solid black;
 }
 
-.default .todoPane .button {
-	border: none;
-	margin-left: 2px;
+.default .button {
 	background: rgb(255, 235, 217);
 	color: rgb(0, 0, 0);
-	border-radius: 25%;
-	padding: 1px 5px;
 }
 
-.default .todoPane .button:hover {
+.default .button:hover {
 	background: rgb(20, 216, 196);
 	color: rgb(255, 255, 255);
 	border: 2px solid rgb(250, 200, 156);
 }
 
 .default .button-x {
-	border: none;
-	margin-left: 2px;
 	background: rgb(255, 235, 217);
 	color: rgb(0, 0, 0);
-	border-radius: 25%;
 }
 .default .button-x:hover {
 	border: 2px solid rgb(250, 200, 156);
@@ -37,25 +25,13 @@
 }
 
 .default .button-OK {
-	border-radius: 25%;
-	border: none;
 	background-color: green;
 	color: white;
-	margin-left: 2px;
 }
 
 .default .button-OK:hover {
 	border: 2px solid rgb(250, 200, 156);
 	background-color: greenyellow;
-	color: black;
-}
-
-.default .filter {
-	border: none;
-	background-color: rgb(87, 204, 240);
-	border-radius: 8px;
-	margin: 5px;
-	width: 100px;
 	color: black;
 }
 
@@ -74,8 +50,6 @@
 }
 
 .default #clr-btn {
-	border-radius: 8px;
-	border: none;
 	background-color: rgb(255, 235, 217);
 }
 
