@@ -5,31 +5,31 @@
 }
 
 .light .button {
-	background: #657786;
+	background: #AAB8C2;
 	color: #14171A;
 }
 
 .light .button:hover {
 	background-color: #F5F8FA ;
-	border: 2px solid #AAB8C2;
+	border: 2px solid #E1E8ED;
 }
 
 .light .button-x {
-	background: #657786;
+	background: #AAB8C2;
 }
 .light .button-x:hover {
 	background-color: #14171A ;
-	border: 2px solid #AAB8C2;
+	border: 2px solid #E1E8ED;
 	color: #F5F8FA;
 }
 
 .light .button-OK {
-	background-color: #657786;
+	background-color: #AAB8C2;
 }
 
 .light .button-OK:hover {
 	background-color: #F5F8FA ;
-	border: 2px solid #AAB8C2;
+	border: 2px solid #E1E8ED;
 }
 
 .light .filter-active {
@@ -38,13 +38,13 @@
 }
 
 .light .filter-inactive {
-	background-color: #657786;
+	background-color: #AAB8C2;
 
 }
 
 .light .filter:hover {
 	background-color: #F5F8FA ;
-	border: 2px solid #AAB8C2;
+	border: 2px solid #E1E8ED;
 
 }
 
@@ -54,7 +54,7 @@
 
 .light #clr-btn:hover {
 	background-color: #F5F8FA ;
-	border: 2px solid #AAB8C2;
+	border: 2px solid #E1E8ED;
 }
 
 .light .todoPane h3 {
