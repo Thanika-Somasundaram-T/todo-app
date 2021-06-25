@@ -7,8 +7,7 @@ import FilterBar from './filterBar';
 import ActionButton from './actionButton';
 import { peek } from '@laufire/utils/debug';
 import './default.css';
-import ThemeSelector from '../themeSelector';
-
+import './style.css';
 
 const todoPane = () => {
 	peek("hi");
