@@ -1,7 +1,4 @@
 .task-pane {
-	position: absolute;
-	height: 100%;
-	width: calc(50% - 1px);
 	top: 0%;
 	right: 0%;
 }
@@ -16,10 +13,6 @@
 	margin: 5px;
 }
 
-.task-pane div {
+.task {
 	height: 2em;
 }
-
-
-
-

@@ -25,7 +25,7 @@ const Task = (task) => {
 	const { id, text } = task;
 
 	return (
-		<div key={ id }>
+		<div key={ id } className="task">
 			<span>
 				{ AddButton(task) }
 			</span>

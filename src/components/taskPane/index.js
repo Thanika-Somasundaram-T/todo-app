@@ -5,7 +5,7 @@ import './light.css';
 import './dark.css';
 
 const TaskPane = () =>
-	<div className="task-pane">
+	<div className="pane task-pane">
 		<h3>TASKS</h3>
 		<div>{ TaskList() }</div>
 	</div>
