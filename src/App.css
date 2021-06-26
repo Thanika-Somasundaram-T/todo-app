@@ -5,6 +5,16 @@
 	overflow: auto;
 }
 
+.task-pane {
+	top: 0%;
+	right: 0%;
+}
+
+.todoPane {
+	top: 0%;
+	left: 0%;
+}
+
 .todo {
 	height: 2em;
 }
