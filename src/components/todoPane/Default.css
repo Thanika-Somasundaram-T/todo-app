@@ -1,4 +1,4 @@
-.default .todoPane {
+.default-todo-pane {
 	background: peachPuff;
 	border-right: 1px solid black;
 }
@@ -58,7 +58,7 @@
 	border: 2px solid rgb(250, 200, 156);
 }
 
-.default .todoPane h3 {
+.default-todo-pane h3 {
 	background-color: turquoise;
 	border: 2px solid black;
 	border-right: none;

@@ -14,7 +14,7 @@ import './dark.css';
 const todoPane = () => {
 	peek("hi");
 	return (
-		<div className="pane todoPane">
+		<div>
 		<div>
 			<h3> TODO'S </h3>
 		</div>

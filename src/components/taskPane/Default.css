@@ -1,4 +1,4 @@
-.default .task-pane {
+.default-task-pane {
 	background-color: turquoise;
 	border-left: 1px solid black ;
 }
@@ -13,7 +13,7 @@
 	border: 2px solid rgb(0, 255, 229);
 }
 
-.default .task-pane h3 {
+.default-task-pane h3 {
 	background-color: peachpuff;
 	border: 2px solid black;
 	border: 2px solid black;
