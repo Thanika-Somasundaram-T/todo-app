@@ -67,7 +67,7 @@
 
 select {
 	position: absolute;
-	background-color: peachpuff;
+	/* background-color: peachpuff; */
 	border: none;
 	border-radius: 5%;
 	top: 0%;

@@ -1,4 +1,4 @@
-.light .task-pane {
+.light-task-pane {
 	background-color: #14171A ;
 	border-left: 1px solid #F5F8FA;
 	color: #F5F8FA;
@@ -15,7 +15,7 @@
 	border: 2px solid #AAB8C2;
 }
 
-.light .task-pane h3 {
+.light-task-pane h3 {
 	background-color: #14171A;
 	border: 2px solid #1DA1F2;
 	border-right: none;

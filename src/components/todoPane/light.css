@@ -1,4 +1,4 @@
-.light .todoPane {
+.light-todo-pane {
 	background-color: #1DA1F2;
 	border-right: 1px solid #F5F8FA;
 	color: #F5F8FA ;
@@ -57,7 +57,7 @@
 	border: 2px solid #E1E8ED;
 }
 
-.light .todoPane h3 {
+.light-todo-pane h3 {
 	background-color: #1DA1F2;
 	border: 2px solid #F5F8FA ;
 	border-right: none;

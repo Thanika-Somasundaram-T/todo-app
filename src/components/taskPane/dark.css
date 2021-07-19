@@ -1,4 +1,4 @@
-.dark .task-pane {
+.dark-task-pane {
 	background-color: #35465C;
 	border-left: 1px solid rgb(156, 156, 156);
 	color: rgb(113, 241, 113);
@@ -16,7 +16,7 @@
 	border: 2px solid rgb(133, 131, 253);
 }
 
-.dark .task-pane h3 {
+.dark-task-pane h3 {
 	background-color: #0a3268;
 	border: 2px solid rgb(156, 156, 156);
 	color: rgb(202, 199, 199);

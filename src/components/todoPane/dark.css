@@ -1,4 +1,4 @@
-.dark .todoPane {
+.dark-todo-pane {
 	background: #35465C;
 	color: rgb(202, 199, 199);
 	border-right: 1px solid rgb(156, 156, 156);
@@ -62,7 +62,7 @@
 	border: 2px solid rgb(250, 200, 156);
 }
 
-.dark .todoPane h3 {
+.dark-todo-pane h3 {
 	background-color: #0a3268;
 	border: 2px solid rgb(156, 156, 156);
 	color: rgb(202, 199, 199);
