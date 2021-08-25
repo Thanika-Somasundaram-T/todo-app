@@ -46,8 +46,8 @@ const filters = {
 	completed: (todo) => todo.completed,
 };
 
-const getFilteredTodos = ({ todos, filter }) =>
-	todos.filter(filters[filter]);
+const getFilteredTodos = ({ todos, fil }) =>
+	todos.filter(filters[fil]());
 
 const editTodo = (
 	todos, edit, text
