@@ -1,9 +1,10 @@
+/* eslint-disable max-statements */
 /* eslint-disable no-magic-numbers */
 /* eslint-disable max-lines-per-function */
 import * as random from '@laufire/utils/random';
 import TodoManager from './todoManager';
 
-describe('test for todooManager', () => {
+describe('test for todoManager', () => {
 	const {
 		addTodo,
 		toggleTodo,
@@ -13,7 +14,8 @@ describe('test for todooManager', () => {
 		getCompletedCount,
 		getTodosCount,
 		clearCompleted,
-		getFilteredTodos
+		getFilteredTodos,
+		editTodo,
 	} = TodoManager;
 
 	test('check addTodo returns a same todos when text is empty', () => {
@@ -197,5 +199,30 @@ describe('test for todooManager', () => {
 		expect(result[0]).toEqual(todos);
 		expect(result[1]).toHaveLength(2);
 		expect(result[2]).toHaveLength(1);
+	});
+
+	test('check editTodo returns editedTodos', () => {
+		const todos = [
+			{
+				id: '2',
+				text: 'work',
+				completed: false,
+			},
+		];
+		const edit = {
+			id: '2',
+			text: 'work',
+			completed: false,
+		};
+		const text = 'leave';
+		const result = editTodo(
+			todos,
+			edit,
+			text
+		);
+
+		expect(result).not.toEqual(todos);
+		expect(result).toHaveLength(1);
+		expect(result[0].text).not.toEqual(todos[0].text);
 	});
 });
