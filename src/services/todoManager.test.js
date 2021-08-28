@@ -3,6 +3,7 @@
 /* eslint-disable max-lines-per-function */
 import * as random from '@laufire/utils/random';
 import TodoManager from './todoManager';
+import config from '../core/config';
 
 describe('test for todoManager', () => {
 	const {
@@ -28,7 +29,7 @@ describe('test for todoManager', () => {
 
 		expect(result).not.toEqual(todos);
 		expect(result).toHaveLength(1);
-		expect(random.rndString).toHaveBeenCalled();
+		expect(random.rndString).toHaveBeenCalledWith(config.idLength);
 		expect(result[0].text).toBe(text);
 		expect(result[0].completed).toBeFalsy();
 		expect(result[0].id).not.toBeUndefined();
