@@ -9,6 +9,7 @@ const ClearCompletedButton = () => {
 	return checkCompleted
 		? null
 		: <button
+				role="clr-btn"
 				id="clr-btn"
 				onClick={ () => context.actions.clearCompleted() }
 				>
