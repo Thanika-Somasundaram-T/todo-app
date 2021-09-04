@@ -6,7 +6,7 @@ const FilterButtons = (filterName) => {
 	const className
 	= `filter ${ context.state.filter === filterName ? 'filter-active' : 'filter-inactive' }`;
 
-	return <button key={ filterName } className={ className } onClick={ () => context.actions.setFilter(filterName) }>
+	return <button key={ filterName } role={ filterName } className={ className } onClick={ () => context.actions.setFilter(filterName) }>
 		{ filterName }
 	</button>;
 };

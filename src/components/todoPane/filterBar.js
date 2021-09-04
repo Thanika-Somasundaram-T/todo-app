@@ -6,11 +6,11 @@ import TodoManager from '../../services/todoManager';
 const filters = ['all', 'active', 'completed'];
 
 const FilterBar = () => {
-	const checkNoTodos = TodoManager.getTodosCount(context.state) === 0;
+	const checkNoTodos = TodoManager.getTodosCount(context.state.todos);
 
 	return checkNoTodos
 		? null
-		: <div>
+		: <div role="filterBar">
 			{ filters.map(FilterButtons) }
 		</div>;
 };

@@ -102,9 +102,9 @@ describe('test for todoManager', () => {
 
 		}];
 
-		const result = getActiveCount({ todos });
+		const result = getActiveCount(todos);
 
-		expect(result).toEqual(2);
+		expect(result).toEqual(false);
 	});
 
 	test('check the completed todos count', () => {
@@ -125,9 +125,9 @@ describe('test for todoManager', () => {
 
 		}];
 
-		const result = getCompletedCount({ todos });
+		const result = getCompletedCount(todos);
 
-		expect(result).toEqual(1);
+		expect(result).toBeFalsy();
 	});
 
 	test('check the total count of todos', () => {
@@ -148,9 +148,9 @@ describe('test for todoManager', () => {
 
 		}];
 
-		const result = getTodosCount({ todos });
+		const result = getTodosCount(todos);
 
-		expect(result).toEqual(3);
+		expect(result).toEqual(false);
 	});
 
 	test('check and filter the completed todos and return active todos', () => {

@@ -29,16 +29,16 @@ const toggleTodos = (todos, isChecked) =>
 		}
 	));
 
-const getActiveCount = ({ todos }) =>
-	todos.filter((todo) => !todo.completed).length;
+const getActiveCount = (todos) =>
+	todos.filter((todo) => !todo.completed).length === 0;
 
-const getTodosCount = ({ todos }) => todos.length;
+const getTodosCount = (todos) => todos.length === 0;
 
 const clearCompleted = (todos) =>
 	todos.filter((todo) => !todo.completed);
 
-const getCompletedCount = ({ todos }) =>
-	todos.filter((todo) => todo.completed).length;
+const getCompletedCount = (todos) =>
+	todos.filter((todo) => todo.completed).length === 0;
 
 const filters = {
 	all: () => true,
